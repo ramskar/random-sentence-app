@@ -62,5 +62,6 @@ class MainController extends AbstractController
             'sentence' => $sentence->getSentence(),
             'link' => $sentence->getLink(),
         ]);
+
     }
 }
